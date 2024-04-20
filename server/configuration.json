@@ -2,5 +2,10 @@
   "server_host":{
     "ip" : "109.108.241.14",
     "port" : "4747"
-  }
+  },
+  "targets_network" : {
+    "rostyslav": "viktoria",
+    "viktoria" : "rostyslav"
+  },
+  "supported_users": ["viktoria", "rostyslav"]
 }

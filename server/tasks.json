@@ -1,0 +1,10 @@
+{
+  "rostyslav" : {
+    "requests" : ["req2eo"],
+    "offers" : ["ofer2"]
+  },
+  "viktoria" : {
+    "requests" : [],
+    "offers" : ["ofer1"]
+  }
+}

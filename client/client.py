@@ -1,6 +1,10 @@
 import socket
-
+import time
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('109.108.241.14', 1212))
 
-client.send("CHECK".encode())
+login = input("Enter login: ")
+client.connect(('109.108.241.14', 4747))
+client.send(login.encode())
+status = client.recv(2).decode()
+if status == "OK":
+    client.send(b"request")

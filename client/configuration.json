@@ -2,5 +2,6 @@
   "server_host":{
     "ip" : "109.108.241.14",
     "port" : "4747"
-  }
+  },
+  "user" : "rostyslav"
 }
